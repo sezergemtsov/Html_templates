@@ -1,0 +1,623 @@
+.mainFrame {
+  width: 100%;
+  max-width: 1441px;
+  overflow: hidden;
+  margin: auto;
+}
+.headSection {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  aspect-ratio: 1441/811;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/Bitmapslider.png);
+}
+.space {
+  width: 100%;
+  display: block;
+  height: 5vh;
+}
+.menu {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.burger {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6f7;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.burgerLine {
+  display: block;
+  width: 18px;
+  height: 1.8px;
+  background-color: black;
+  z-index: 10;
+}
+.burgerLine2 {
+  display: block;
+  width: 18px;
+  height: 4px;
+  z-index: 0;
+}
+.logoSpaceFrame {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+.logoSpace {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 30px;
+  width: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/Group\ 3.png);
+}
+.logo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.webovio {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.headTextArea {
+  padding: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.headTextHolder {
+  margin-left: 8vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+.smallText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.largeText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.headerRef {
+  color: #ffd723;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+  border-width: 0px;
+  &:hover {
+    text-decoration: underline;
+  }
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.headerRefSymbol {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 6px;
+  border-color: transparent transparent transparent #ffd723;
+}
+.clientsFrame {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  top: -100px;
+}
+.clients {
+  width: 87%;
+  aspect-ratio: 1276/227;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f5f6f7;
+  box-shadow: 30px 50px 50px gainsboro;
+}
+.client1 {
+  width: 9vw;
+  aspect-ratio: 156/113;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/clients/16_Andrew-Porter-Logo.png);
+}
+.client2 {
+  width: 9vw;
+  aspect-ratio: 156/113;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/clients/17_Jalen-Rose-Leadership-Academy-Logo.png);
+}
+.client3 {
+  width: 9vw;
+  aspect-ratio: 156/113;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/clients/Wal.png);
+}
+.client4 {
+  width: 9vw;
+  aspect-ratio: 156/113;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/clients/Ideal.png);
+}
+.client5 {
+  width: 9vw;
+  aspect-ratio: 156/113;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/assets/clients/PhalenLeadership.png);
+}
+.quoteFrame {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  position: relative;
+  width: 87%;
+}
+.quoteFrameText {
+  display: flex;
+  width: 44%;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.quoteFrameText1 {
+  display: flex;
+  width: 44%;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  box-shadow: 0px 30px 30px gainsboro;
+}
+.mainSmallText {
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4d533c;
+  font-size: 14px;
+}
+.mainHeaderText {
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4d533c;
+  font-size: 36px;
+  font-weight: 700;
+}
+.mainHeaderTextLarge {
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4d533c;
+  font-size: 46px;
+  font-weight: 700;
+}
+.mainRef {
+  color: #d4d6d4;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  border-width: 0px;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  &:hover {
+    color: #ffd723;
+  }
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.mainRefSymbol {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 6px;
+  border-color: transparent transparent transparent #f0f1f0;
+}
+.quote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  font-style: italic;
+  color: #4d533c;
+  font-weight: 400;
+}
+.ovalHolderMain {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ovalImageMain {
+  display: block;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-image: url(/public/assets/ovals/GDOval1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ovalSignature {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+.quoteName {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  padding-left: 10px;
+  font-weight: 700;
+}
+.quotePosition {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 400;
+}
+.mainSpan {
+  background-color: #d4d6d4;
+  width: 80%;
+  height: 1px;
+  display: block;
+  margin: auto;
+}
+.projectHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.projectHeaderText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #4d533c;
+}
+.ResumeElementHeader {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4d533c;
+}
+.ResumeElementText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #4d533c;
+}
+.projectDescriptionText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #4d533c;
+}
+.projectTemplate {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.projectTemplateReverce {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  margin-bottom: 150px;
+}
+.projectImage {
+  display: block;
+  width: 50%;
+  aspect-ratio: 735/550;
+  background-image: url(/public/assets/projects/Bitmap1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projectImage2 {
+  display: block;
+  width: 50%;
+  aspect-ratio: 735/550;
+  background-image: url(/public/assets/projects/Bitmap2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.projectImage3 {
+  display: block;
+  width: 50%;
+  aspect-ratio: 735/550;
+  background-image: url(/public/assets/projects/Bitmap3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.projectComment {
+  display: flex;
+  height: fit-content;
+  width: 500px;
+  flex-flow: column nowrap;
+  position: relative;
+  top: 200px;
+  left: -300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  z-index: 10;
+  box-shadow: gainsboro 20px 20px 20px;
+}
+
+.projectCommentRev {
+  display: flex;
+  height: fit-content;
+  width: 500px;
+  flex-flow: column nowrap;
+  position: relative;
+  top: 350px;
+  left: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  z-index: 10;
+  box-shadow: gainsboro -20px 20px 20px;
+}
+
+.projectText {
+  position: relative;
+  right: 200px;
+  width: 34%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 490px;
+}
+.projectTextRev {
+  position: relative;
+  right: -200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 490px;
+  width: 34%;
+}
+.projectQuote {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #4d533c;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+.projectOval {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.ovalSignature {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.ovalName {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d533c;
+}
+.ovalPosition {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4d533c;
+}
+.oval {
+  display: block;
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  background-image: url(/public/assets/ovals/Oval1-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+}
+.oval2 {
+  display: block;
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  background-image: url(/public/assets/ovals/Oval2-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+}
+.oval3 {
+  display: block;
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  background-image: url(/public/assets/ovals/Oval3-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+}
+.horizontalFull {
+  width: 90%;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+.resumeBlock {
+  width: 90%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.resumeElement {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  width: 100%;
+  background-image: url(/public/assets/Bg.png);
+  background-size: contain;
+  background-repeat: repeat;
+}
+.phoneAddress {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.footerFrame {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.footerSmall {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #b6c197;
+  margin-top: 10px;
+}
+.footerExtraSmall {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #b6c197;
+  margin-top: 10px;
+}
+
+.footerBig {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.contactBlock {
+  padding-right: 100px;
+}
+.footerSpan {
+  background-color: #717563;
+  width: 100%;
+  height: 1px;
+}
+.footerSpanV {
+  display: block;
+  background-color: #717563;
+  width: 1px;
+  height: 140px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.info1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.footerLarge {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.footerSymbols {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 152px;
+  height: 18px;
+  background-image: url(/public/assets/social-media.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.socialRound1 {
+  display: block;
+  background-color: #7e836d62;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  opacity: 70%;
+  z-index: 0;
+  &:hover {
+    background-color: #fcd422;
+  }
+}
+.banner {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+  box-shadow: 30px 50px 50px rgba(0, 0, 0, 0.356);
+  width: 80%;
+  margin-left: 0;
+  position: relative;
+  top: 100px;
+}
